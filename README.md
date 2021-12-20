@@ -1,2 +1,3 @@
 # FunnyMonkeys
-Full stack project
+Full stack project van Douwe Duijster.
+
