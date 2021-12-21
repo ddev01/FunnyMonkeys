@@ -24,7 +24,7 @@ USE `apen` ;
 DROP TABLE IF EXISTS `apen`.`aap` ;
 
 CREATE TABLE IF NOT EXISTS `apen`.`aap` (
-  `idaap` INT NOT NULL,
+  `idaap` INT NOT NULL AUTO_INCREMENT,
   `soort` VARCHAR(45) NULL,
   PRIMARY KEY (`idaap`))
 ENGINE = InnoDB;
@@ -36,7 +36,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `apen`.`leefgebied` ;
 
 CREATE TABLE IF NOT EXISTS `apen`.`leefgebied` (
-  `idleefgebied` INT NOT NULL,
+  `idleefgebied` INT NOT NULL AUTO_INCREMENT,
   `omschrijving` VARCHAR(45) NULL,
   PRIMARY KEY (`idleefgebied`))
 ENGINE = InnoDB;
